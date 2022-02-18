@@ -12,7 +12,7 @@ root.title("Weather Information")
 def Take_input():
     INPUT = inputtxt.get("1.0", "end-1c")
     print(INPUT)
-    if (INPUT != ""):
+    if INPUT != "":
         global city
         city = INPUT
         base_url = "http://api.openweathermap.org/data/2.5/weather?appid=" + API_Key + "&q=" + city
