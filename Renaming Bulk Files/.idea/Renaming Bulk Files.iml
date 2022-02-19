@@ -4,8 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Weather Information" />
-    <orderEntry type="module" module-name="Password Generator" />
-    <orderEntry type="module" module-name="Renaming Bulk Files" />
   </component>
 </module>
