@@ -42,24 +42,17 @@ def generate_pass():
 
     p = '\n'
     temp = "Please write a valid digit!\n"
-
-    if number == "" or length == "":
-        Output.insert(END, temp)
-    else:
+    if number.isdigit() and length.isdigit():
         number = int(number)
         length = int(length)
+        for pwd in range(number):
+            passwords = ''
+            for c in range(length):
+                passwords += random.choice(chars)
 
-        if ((isinstance(number, int) != True) or (isinstance(length, int) != True)):
-            Output.insert(END, temp)
-
-        else:
-
-            for pwd in range(number):
-                passwords = ''
-                for c in range(length):
-                    passwords += random.choice(chars)
-
-                Output.insert(END, passwords + p)
+            Output.insert(END, passwords + p)
+    else:
+        Output.insert(END, temp)
 
 
 l1 = Label(text="Amount of passwords to generate:")
