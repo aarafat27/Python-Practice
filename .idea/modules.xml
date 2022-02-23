@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Choose Your Own Adventure/.idea/Choose Your Own Adventure.iml" filepath="$PROJECT_DIR$/Choose Your Own Adventure/.idea/Choose Your Own Adventure.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python Practice.iml" filepath="$PROJECT_DIR$/.idea/Python Practice.iml" />
     </modules>
   </component>
